@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cliente - Galaxy Cakes</title>
+    </head>
+
+    <body>
+
+        <h1 style="text-align: center">¡Describenos tu pedido!</h1>
+        <h3>Tú eliges, nosotros lo preparamos...</h3>
+
+        <form method="POST" action="/pedidos">
+
+            <i><label for="personales">Tus datos: </label> <br> <br> </i>
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" value=""> <br> <br>
+            
+            <label for="Telefono">Telefono: </label>
+            <input type="tel" name="Telefono" value="" maxlength="10"> <br> <br>
+            
+            <label for="Email">Email: </label>
+            <input type="email" name="Email" value=""> <br> <br>
+
+            <i><label for="sabores">Elige los sabores que desees: </label> <br> <br> </i>
+            
+            </i><input type="checkbox" name="sabor1" value="Manzana"> 
+            <span> Manzana - $ 50 </span> <br>
+    
+            <input type="checkbox" name="sabor2" value="Fresa"> 
+            <span> Fresa - $ 100 </span> <br>
+            
+            <input type="checkbox" name="sabor3" value="Chocolate"> 
+            <span> Chocolate - $ 90 </span> <br>
+    
+            <input type="checkbox" name="sabor4" value="Durazno"> 
+            <span> Durazno - $ 80 </span> <br>
+    
+            <input type="checkbox" name="sabor5" value="Zanahoria"> 
+            <span> Zanahoria - $ 80 </span> <br> <br> <br>
+    
+            <i> <label for="decoraciones"> Elige las decoraciones que desees: </label> <br> <br> </i>
+            
+            <input type="checkbox" name="decoracion1" value="Chispas"> 
+            <span> Chispas de Chocolate - $ 100 </span> <br>
+            
+            <input type="checkbox" name="decoracion2" value="Flores"> 
+            <span> Flores - $ 90 </span> <br>
+            
+            <input type="checkbox" name="decoracion3" value="DripCakes"> 
+            <span> DripCakes - $ 70 </span> <br> <br>
+
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Hello">Describe a tu pastel...</textarea> <br> <br>
+            
+            <input type="submit">
+        </form>
+
+    </body>
+
+    <br>
+    <footer style="background-color: lightblue; text-align: center">
+        <p>Tel: 3312122334, Author: Luis Torres                Dirección: Gdl Jalisco.</p>
+        <p>Horario de atención, Lunes a Viernes, 7 am - 3 pm </p>
+    </footer>
+</html>
